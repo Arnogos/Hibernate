@@ -32,6 +32,7 @@ public class UserDaoJDBCImpl implements UserDao {
         }
     }
 
+
     @Override
     public void dropUsersTable() {
         String sql = "DROP TABLE users";
